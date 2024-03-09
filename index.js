@@ -29,7 +29,7 @@ app.get("/products", (req,res)=>
     res.render(__dirname + "/products.ejs");
 });
 
-app.listen(port,()=>
+/*app.listen(port,()=>
 {
  console.log("listening on port "+ port);
-})
+})*/
