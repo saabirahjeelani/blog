@@ -1,0 +1,161 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scrollbar-width: none;
+}
+.button
+{
+    background-color: transparent;
+    border:0;
+    width:100px;
+    color: #F5F5DC;
+    
+}
+body{
+    -ms-overflow-style: none;
+}
+.button:hover{
+    color:#65723d;
+    font-size: large;
+}
+.pagebtn{
+    background-color: transparent;
+    border:0;
+    width:100px;
+    color:#65723d;
+    font-size: large;
+}
+.inner-container{
+    display:flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.name{
+    color:#65723d;
+    font-family: "Inconsolata", monospace;
+    
+}
+
+.logos{
+    width:20px;
+    height:20px;
+    
+}
+
+
+.mainLogo{
+    width:200px;
+    height:100px;
+}
+.header{
+    background-color: #aabe6d;
+    
+    top:0;
+    width: 100%;
+}
+
+
+.text{
+    color: #F5F5DC;
+}
+
+.footer{
+    background-color: #aabe6d;
+    
+    bottom:0;
+    left: 0;
+    width: 100%;
+    
+   
+}
+.bottomline{
+   
+    margin-right: 20px;
+}
+
+.frontpageimage{
+    width:550px;
+    backdrop-filter: blur(50px); 
+    
+    border-radius: 28px; 
+    box-shadow: 40px 35px 60px 0px #aabe6d, 
+    inset -6px -6px 46px 0px #aabe6d, 
+    inset 0px 11px 48px 0px #aabe6d;
+}
+
+.content
+{   
+    margin:0;
+    padding:0;
+    width:auto;
+}
+
+.row{
+    margin-right: 0;
+}
+
+.btn{
+    background-color: #aabe6d;
+    color: #F5F5DC;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-color: transparent;
+    box-shadow: 4px 4px 10px 0px #aabe6d, 
+    inset -8px -8px 16px 0px #aabe6d, 
+    inset 0px 4px 12px 0px #aabe6d;
+}
+
+.btn:hover{
+    text-shadow: 4px 4px 10px 0px #aabe6d;
+    
+}
+.textbody{
+    color: #964B00;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.homepagecards{
+    backdrop-filter: blur(20px); 
+    border:transparent;
+    border-radius: 28px; 
+    box-shadow: 6px 4px 8px 4px rgb(148, 161, 154), 
+    inset -4px -4px 6px 0px rgb(204, 204, 188), 
+    inset 8px 8px 15px 0px rgb(199, 199, 189);
+    width:350px; 
+    height:350px; 
+    font-size: 25px; 
+    text-align: center;
+    padding-top:100px;
+    color: beige;
+    text-wrap: wrap;
+    
+}
+
+#customcard{
+    height:500px;
+}
+
+.container{
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom: 20px;
+    width:100%;
+}
+
+#mycarousel{
+    width:100%
+}
+
+.submitbutton{
+    position: relative;
+    display: inline;
+    margin-top: 40px;
+    width:400px;
+    height:100px;
+    background-color: transparent;
+    border: transparent;
+}
